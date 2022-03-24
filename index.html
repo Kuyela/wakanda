@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>wakanda</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+    <img id="photo" src="waka">
+    <br> 
+    <br>
+    <br>
+    <br>
+    <h2 id="label">ENTER YOUR DETAILS TO BOOK A DAY</h2>
+    <form action="waka.php" method="POST" id="form">
+        
+        <label for="fname">FIRST NAME</label> <br>
+        <input type="text" name="first name" id="fname"><br>
+        <label for="lname">LAST NAME</label><br>
+        <input type="text" name="last name" id=" lname"><br>
+        <label for="email">EMAIL</label><br>
+        <input type="email" name="email" id="email"><br>
+        <label for="date">DATE</label><br>
+        <input type="date" name="date" id="name"><br>
+        <label for="time">TIME</label><br>
+        <input type="time" name="time" id="time"><br>
+        <label for="hair">CHOOSE HAIR STYLE</label><br>
+        <select name="hair" id="hair">
+        <optgroup label="ADULTS HAIR STYLES">
+            <option value="fish tail">FISH TAIL</option>
+            <option value="boy cut">BOY CUT</option>
+            <option value="brazillian">BRAZILLIAN</option>
+            <option value="pone tail">PONE TAIL</option>
+        </optgroup>
+        <optgroup label="KIDS HAIR STYLE">
+            <option value="mukule">MUKULE</option>
+            <option value="pomba">POMBA</option>
+        </optgroup>
+        </select>
+        <br>
+        <br>
+        <button type="submit">BOOK</button>
+        <button type="reset">RESET</button>
+    </form>
+</body>
+</html>
